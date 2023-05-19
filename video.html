@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies Display Page</title>
+	<style>
+		body {
+			background-color: #141414;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			padding: 2rem;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.movie {
+			margin: 1rem;
+			width: 200px;
+			box-shadow: 0 0 1rem rgba(255, 255, 255, 0.1);
+			transition: all 0.3s ease;
+		}
+
+		.movie:hover {
+			transform: scale(1.1);
+			box-shadow: 0 0 1.5rem rgba(255, 255, 255, 0.2);
+		}
+
+		.movie img {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+		}
+
+		.movie h3 {
+			margin: 0.5rem;
+			font-size: 1rem;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		.movie p {
+			margin: 0.5rem;
+			font-size: 0.8rem;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="movie">
+			<img src="Images/movie1.jpeg" alt="Movie 1">
+			<a href="https://www.bing.com/ck/a?!&&p=31dade48265b573fJmltdHM9MTY4MjY0MDAwMCZpZ3VpZD0xODk4YjUzNS0wN2YzLTZlOTAtMzA0My1hNTlmMDNmMzZjYzUmaW5zaWQ9NTQ2Mw&ptn=3&hsh=3&fclid=1898b535-07f3-6e90-3043-a59f03f36cc5&psq=dead+pool+movie+link&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1IX3pCWTFQQ1dmVQ&ntb=1"><center>Dead Pool</center></a>
+		</div>
+		<div class="movie">
+			<img src="Images/movie2.jpeg" alt="WALL-E">
+			<a href="https://www.bing.com/ck/a?!&&p=d7ee4b8b82718738JmltdHM9MTY4MjY0MDAwMCZpZ3VpZD0xODk4YjUzNS0wN2YzLTZlOTAtMzA0My1hNTlmMDNmMzZjYzUmaW5zaWQ9NTI2NA&ptn=3&hsh=3&fclid=1898b535-07f3-6e90-3043-a59f03f36cc5&psq=wall-e+movie+link&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1hbElxX3dHOUZOaw&ntb=1"><center>WALL-E<center></a>
+		</div>
+		<div class="movie">
+			<img src="Images/movie3.jpeg" alt="Avatar">
+			<a href="https://www.bing.com/ck/a?!&&p=ed2b2fef0b858b56JmltdHM9MTY4MjY0MDAwMCZpZ3VpZD0xODk4YjUzNS0wN2YzLTZlOTAtMzA0My1hNTlmMDNmMzZjYzUmaW5zaWQ9NTE1NA&ptn=3&hsh=3&fclid=1898b535-07f3-6e90-3043-a59f03f36cc5&u=a1L3ZpZGVvcy9zZWFyY2g_cT1hdmF0YXIrbW92aWUrbGluayZxcHZ0PWF2YXRhcittb3ZpZStsaW5rJkZPUk09VkRSRQ&ntb=1"><center>Avatar</center></a>
+		</div>
+		<div class="movie">
+			<img src="Images/movie4.jpeg" alt="Brave">
+			<a href="https://www.bing.com/ck/a?!&&p=0764cc73176a77b0JmltdHM9MTY4MjY0MDAwMCZpZ3VpZD0xODk4YjUzNS0wN2YzLTZlOTAtMzA0My1hNTlmMDNmMzZjYzUmaW5zaWQ9NTE1MA&ptn=3&hsh=3&fclid=1898b535-07f3-6e90-3043-a59f03f36cc5&u=a1L3ZpZGVvcy9zZWFyY2g_cT1icmF2ZSttb3ZpZStsaW5rJnFwdnQ9YnJhdmUrbW92aWUrbGluayZGT1JNPVZEUkU&ntb=1"><center>Brave</center></a>
+		</div>
+</div>
+</body>
+</html>

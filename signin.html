@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-image: url('Images/header-image.png');
+			background-size: cover;
+			background-position: center;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+                 
+		}
+		.form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 5px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+			width: 400px;
+		}
+		.form input[type="email"], .form input[type="password"] {
+			padding: 10px;
+			margin: 10px 0;
+			width: 100%;
+			border: none;
+			border-radius: 3px;
+			background-color: #f5f5f5;
+		}
+		.form input[type="submit"] {
+			padding: 10px 20px;
+			background-color: #e50914;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+		.form input[type="submit"]:hover {
+			background-color: #e60010;
+		}
+		.form p {
+			font-size: 14px;
+			margin-top: 10px;
+		}
+		.form p a {
+			color: #e50914;
+			text-decoration: none;
+		}
+		.form p a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<form class="form" action="video.html" method="POST">
+			<h1>Sign In</h1>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+			<input type="submit" value="Sign In">
+                  
+			<p>Forgot your password? <a href="#">Reset it here.</a></p>
+		</form>
+	</div>
+</body>
+</html>
